@@ -4,7 +4,7 @@
  * 检查是否设置了密码保护
  * 通过读取页面上嵌入的环境变量来检查
  */
-
+function isPasswordProtected() {
     // 只检查普通密码
     const pwd = window.__ENV__ && window.__ENV__.PASSWORD;
     
